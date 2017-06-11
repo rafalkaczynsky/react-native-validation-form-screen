@@ -1,6 +1,9 @@
 import React from 'react'
 import {SignupScreen} from '../windows'
 
+import {signUp} from '../actions/user'
+
+
 export default class Signup extends React.Component {
     constructor(props){
         super(props)
@@ -8,7 +11,9 @@ export default class Signup extends React.Component {
 
     render(){
         return (
-            <SignupScreen />
+            <SignupScreen 
+                signUp={signUp}
+            />
         )
     }
 }
