@@ -1,4 +1,4 @@
-/*import ImagePicker from 'react-native-image-picker'
+import ImagePicker from 'react-native-image-picker'
 
 export default (cb) => {
   const options = {
@@ -26,4 +26,4 @@ export default (cb) => {
     const source = response.uri
     cb(source)
   })
-}*/
+}
