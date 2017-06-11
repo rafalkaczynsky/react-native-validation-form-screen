@@ -209,7 +209,7 @@ export default StyleSheet => StyleSheet.extend({
   },
 
   imageTintOverlay: {
-    backgroundColor: colors.pink,
+    backgroundColor: colors.blue,
     opacity: 0.67,
     position: 'absolute',
     top: 0,

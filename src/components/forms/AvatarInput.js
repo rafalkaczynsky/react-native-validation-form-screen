@@ -5,6 +5,7 @@ import StyleSheet from '../../styles'
 
 const renderAvatarInput = ({
   input: {value, onChange},
+  imageUrl,
   meta: {touched, error, warning}
 }) => {
   return (

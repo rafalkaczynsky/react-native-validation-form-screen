@@ -1,7 +1,7 @@
 import React from 'react'
 import {TouchableHighlight, View, Image} from 'react-native'
 
-//import {showImagePicker} from '../utils/'
+import {showImagePicker} from '../utils/'
 import StyleSheet from '../styles'
 import {Icon} from './'
 
@@ -10,7 +10,7 @@ class AvatarEdit extends React.Component {
   render() {
     return (
       <TouchableHighlight
-   //       onPress={() => showImagePicker(this.props.onChange)}
+            onPress={() => showImagePicker(this.props.onChange)}
             style={[StyleSheet.avatarEdit.imageContainer, this.props.style]}
       >
         <View style={StyleSheet.avatarEdit.imageContainer}>
@@ -31,7 +31,7 @@ class AvatarEdit extends React.Component {
 }
 
 AvatarEdit.propTypes = {
-//  onChange: React.PropTypes.func.isRequired,
+  onChange: React.PropTypes.func.isRequired,
   imageUrl: React.PropTypes.string,
 }
 

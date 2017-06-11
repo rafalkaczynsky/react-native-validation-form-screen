@@ -45,6 +45,7 @@ class SignUp extends Component {
           <Field
             name="image"
             component={AvatarInput}
+            imageUrl={StyleSheet.images.logo}
           />
           <Field
             name="name"
